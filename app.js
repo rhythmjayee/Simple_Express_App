@@ -7,7 +7,7 @@ app.get("/", (rep, res) => {
 });
 
 app.get("*", (rep, res) => {
-    res.send("<h1>We DONT so THIS here !!! Better to put right URL</h1></h1>");
+    res.send("<h1> <b>404</b> <br> We DONT do THIS here !!! Better to put right URL</h1></h1>");
 });
 
 app.listen(5000, () => {
